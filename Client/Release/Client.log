@@ -1,0 +1,7 @@
+﻿  Client.cpp
+Client.cpp(56): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\WINSOCK2.H(1850): note: 参见“inet_addr”的声明
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(D:\Release\Client.exe) does not match the Linker's OutputFile property value (D:\ServerCilent\Client\Client\Release\Client.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  LINK : 已指定 /LTCG，但不需要生成代码；从链接命令行中移除 /LTCG 以提高链接器性能
+  Client.vcxproj -> D:\Release\Client.exe
+  Client.vcxproj -> D:\ServerCilent\Client\Client\Release\Client.pdb (Full PDB)
